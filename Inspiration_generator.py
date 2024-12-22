@@ -15,6 +15,8 @@ def simple():
         word = fill.readline()
     return word
 
+#gggg
+
 def hard():
     with open('data/hard.txt', 'r')as fill:
         word = fill.readline()
