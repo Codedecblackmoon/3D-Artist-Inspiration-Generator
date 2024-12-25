@@ -7,19 +7,21 @@ body {
     align-items: center;
     height: 100vh;
     color: #ffffff;
-    background-color: #1c1c1c;
+    background: rgb(0,212,255);
+    background: linear-gradient(146deg, rgba(0,212,255,1) 3%, rgba(19,19,146,1) 37%, rgba(2,0,36,1) 100%);
 }
 
 .container {
+    max-width: 700px;
     text-align: center;
-    background: rgb(72, 72, 72);
+   
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
 }
 
 h1 {
-    color: #333;
+    color: #ffffff;
 }
 
 form {
