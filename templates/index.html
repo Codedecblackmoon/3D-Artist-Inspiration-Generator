@@ -18,44 +18,13 @@
             </select>
             <button type="submit" id="generateButton">Generate Inspiration</button>
         </form>
-        <!-- {% if output %}
+        {% if output %}
             <div class="result">
                 <h2>Your Inspiration:</h2>
                 <p>{{ output }}</p>
                 <h3>Theme: {{ theme }}</h3>
             </div>
-        {% endif %} -->
-        {% if output %}
-            <div class="flip-card" id="flipCard">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <h2>Click Generate for Inspiration!</h2>
-                    </div>
-                    <div class="flip-card-back">
-                        <h2>Your Inspiration:</h2>
-                        <p>{{ output }}</p>
-                        <h3>Theme: {{ theme }}</h3>
-                    </div>
-                </div>
-            </div>
         {% endif %}
     </div>
-    <script>
-        document.getElementById("generateButton").addEventListener("click", function (event) {
-            // Prevent default form submission
-            event.preventDefault();
-
-            // Add flip effect
-            const flipCard = document.getElementById("flipCard");
-            if (flipCard) {
-                flipCard.classList.add("flipped");
-
-                // Optionally reset flip after a short delay (remove this if not needed)
-                // setTimeout(() => {
-                //     flipCard.classList.remove("flipped");
-                // }, 3000);
-            }
-        });
-    </script>
 </body>
 </html>

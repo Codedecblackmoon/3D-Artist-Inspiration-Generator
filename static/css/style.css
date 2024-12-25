@@ -11,14 +11,14 @@ body {
     background: linear-gradient(146deg, rgba(0,212,255,1) 3%, rgba(19,19,146,1) 37%, rgba(2,0,36,1) 100%);
 }
 
-/* .container {
+.container {
     max-width: 700px;
     text-align: center;
    
     padding: 20px;
     border-radius: 10px;
-    
-} */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
 
 h1 {
     color: #ffffff;
@@ -45,45 +45,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-.container {
-
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    /* background: #fff; */
-    border-radius: 10px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
-}
-.flip-card {
-    perspective: 1000px;
-    margin-top: 20px;
-}
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-}
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-.flip-card-front {
-    /* background: #e3f2fd; */
-}
-.flip-card-back {
-    background: #c8e6c9;
-    /* transform: rotateY(180deg); */
-}
-.flipped .flip-card-inner {
-    transform: rotateY(180deg);
-}
 
 .result {
     margin-top: 20px;
