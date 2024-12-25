@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Artist Inspiration Generator</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>3D Artist Inspiration Generator</h1>
+        <form method="POST">
+            <label for="difficulty">Pick a Difficulty:</label>
+            <select name="difficulty" id="difficulty" required>
+                <option value="easy">Easy</option>
+                <option value="middium">Middium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <button type="submit">Generate Inspiration</button>
+        </form>
+        {% if output %}
+            <div class="result">
+                <h2>Your Inspiration:</h2>
+                <p>{{ output }}</p>
+                <h3>Theme: {{ theme }}</h3>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
