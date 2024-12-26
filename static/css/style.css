@@ -36,22 +36,20 @@ select, button {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #0056b3;
     color: white;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #002c74;
 }
 
 
 .result {
     margin-top: 20px;
-    
+
     padding: 15px;
-    /* border-radius: 5px; */
-    /* From https://css.glass */
     background: rgba(188, 194, 255, 0.25);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
