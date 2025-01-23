@@ -4,6 +4,10 @@ This project is a Flask-based web application designed to help 3D artists who ar
 
 ---
 
+![alt text](<./image/Screenshot 2025-01-17 154037.png>)
+
+---
+
 ## **Features**
 - **Difficulty Levels**:
   - **Easy**: Generates a simple object with 2 colors.
